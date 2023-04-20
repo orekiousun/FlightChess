@@ -16,11 +16,6 @@ public class CharacterManager : LogicModuleBase, ICharacterManager {
     }
 
 #region Unity Callback
-
-    public override void Awake() {
-        
-    }
-
     public override void Init() {
         // 新场景加载时，获取到玩家对象
         MessageManager.Instance.Get<SceneMessage>().RegisterHandler(SceneMessage.NewSceneLoaded, (sender, args) => {
@@ -34,16 +29,8 @@ public class CharacterManager : LogicModuleBase, ICharacterManager {
         });
     }
 
-    public override void Update() {
+    public override void Update(float deltaTime) {
 
-    }
-
-    public override void FixedUpdate() {
-        
-    }
-
-    public override void OnDestroy() {
-        
     }
 
 #endregion

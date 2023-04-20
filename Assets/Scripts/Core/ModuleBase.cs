@@ -20,14 +20,14 @@ public class LogicModuleBase
     {
     }
 
-    public virtual void Update()
+    public virtual void Update(float deltaTime)
     {
     }
-    public virtual void LateUpdate()
+    public virtual void LateUpdate(float deltaTime)
     {
     }
 
-    public virtual void FixedUpdate()
+    public virtual void FixedUpdate(float fixedDeltaTime)
     {
     }
 

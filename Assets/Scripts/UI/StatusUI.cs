@@ -10,14 +10,14 @@ public class StatusUI : UIBase {
 
     public override void OnDisplay(object args) {
         for (int i = 1; i <= 6; i++) {
-            texts.Add(i, Get<Text>("Count1"));
+            texts.Add(i, Get<Text>("Count" + i.ToString()));
             texts[i].text = "0";
         }
         roundTitleText = Get<Text>("RoundText");
     }
 
     /// <summary>
-    /// 更新UI中各个骰子的值，以及标题的值
+    /// 更新UI中各个骰子的值
     /// </summary>
     public void UpdateItemTexts(Dictionary<int, int> items) {
         for (int i = 1; i <= 6; i++) {
@@ -25,6 +25,9 @@ public class StatusUI : UIBase {
         }
     }
 
+    /// <summary>
+    /// 更新标题的值
+    /// </summary>
     public void UpdateTitleText(string roundTitle) {
         roundTitleText.text = roundTitle;
     }

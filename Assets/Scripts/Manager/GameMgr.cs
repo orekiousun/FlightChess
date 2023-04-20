@@ -38,12 +38,14 @@ public class GameMgr : MonoSingleton<GameMgr> {
         roundManager = new RoundManager();
         itemManager = new ItemManager();
 
+        // 添加所有模块的同时初始化模块
         SceneMgr = Add<IGameSceneManager>(sceneManager);
         CharacterMgr = Add<ICharacterManager>(characterManager);
         EventMgr = Add<IEventManager>(eventManager);
         RoundMgr = Add<IRoundManager>(roundManager);
         ItemMgr = Add<IItemManager>(itemManager);
 
+        // 唤醒所有模块
         foreach (var module in _modules) {
             module.Awake();
         }
@@ -62,13 +64,13 @@ public class GameMgr : MonoSingleton<GameMgr> {
 
     private void Update() {
         foreach (var module in _modules) {
-            module.Update();
+            module.Update(Time.deltaTime);
         }
     }
 
     private void FixedUpdate() {
         foreach (var module in _modules) {
-            module.FixedUpdate();
+            module.FixedUpdate(Time.fixedDeltaTime);
         }
     }
 

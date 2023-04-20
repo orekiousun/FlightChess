@@ -13,8 +13,8 @@ public class EndGameUI : UIBase {
     Action OnExitButton;
 
     public override void OnDisplay(object args) {
-        OnCancelButton += CancelAction;
-        OnExitButton += ExitAction;
+        OnCancelButton = CancelAction;
+        OnExitButton = ExitAction;
     }
 
     private void CancelAction() {

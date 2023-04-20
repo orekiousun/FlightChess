@@ -70,24 +70,12 @@ public class GameSceneManager : LogicModuleBase, IGameSceneManager {
 
 #region Unity Callback
 
-    public override void Awake() {
-
-    }
-
     public override void Init() {
         currentScene = nullScene;
         SceneManager.sceneLoaded += SceneLoaded;
     }
 
-    public override void Update() {
-        
-    }
-
-    public override void FixedUpdate() {
-        
-    }
-
-    public override void OnDestroy() {
+    public override void Update(float deltaTime) {
         
     }
 

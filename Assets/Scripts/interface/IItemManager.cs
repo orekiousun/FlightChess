@@ -18,4 +18,19 @@ public interface IItemManager {
     /// </summary>
     bool MinusItem(int left, int right);
 
+    /// <summary>
+    /// 每回合的抽卡，随机获取一个骰子
+    /// </summary>
+    void GetItem();
+
+    /// <summary>
+    /// 更新StatusUI中骰子的值
+    /// </summary>
+    /// <returns></returns>
+    public bool UpdateStatusUI();
+
+    /// <summary>
+    /// 更新StatusUI中的标题
+    /// </summary>
+    public void UpdateStatusTitle(int roundCount);
 }

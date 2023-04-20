@@ -11,6 +11,7 @@ namespace NameList {
         SelectUI = 3,
         EndGameUI = 4,
         ExitUI = 5,
+        Round_NormalUI = 6,
     }
 
     public enum BlockType {
@@ -21,5 +22,10 @@ namespace NameList {
         Fire = 4,
         Bonus = 5,
         DirectionChange = 6,
+    }
+
+    public enum RoundType {
+        Normal = 1,
+
     }
 }

@@ -321,7 +321,7 @@ public class EventManager : LogicModuleBase, IEventManager
     }
 
 
-    public override void Update()
+    public override void Update(float deltaTime)
     {
         //每隔60帧主动GC
         if (Time.frameCount %60 == 0)
