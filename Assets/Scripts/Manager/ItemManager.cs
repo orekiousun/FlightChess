@@ -12,6 +12,8 @@ public class ItemManager : LogicModuleBase, IItemManager {
 
     public void AddItem(int index) {
         items[index]++;
+        Debug.Log("Add Item: " + index.ToString());
+        UpdateStatusUI();
     }
 
     public bool UseItem(int index) {
@@ -21,28 +23,27 @@ public class ItemManager : LogicModuleBase, IItemManager {
             return false;
         }
         items[index]--;
+        Debug.Log("Use Item: " + index.ToString());
         UpdateStatusUI();
         return true;
     }
 
     public bool MinusItem(int left, int right) {
         // 如果减数大于被减数，减法失败
-        if(left < right) {
-            UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "减数不能大于被减数");
+        if(left <= right) {
+            UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "减数不能大于等于被减数");
             return false;
         }
-        bool leftUse = UseItem(left);
-        bool rightUse = UseItem(right);
-        // 减法成功
-        if(leftUse && rightUse) {
+        if(items[left] > 0 && items[right] > 0) {   // 减法成功
+            UseItem(left);
+            UseItem(right);
             AddItem(left - right);
-            UpdateStatusUI();   // 成功之后更新UI界面
+            UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "减法成功，获得新的骰子：" + (left - right).ToString());
+            // 不需再次更新UI界面，前面已经更新过了
             return true;
         }
-        // 减法失败，回退，不更新UI
-        else {
-            if(!leftUse) AddItem(left);
-            if(!rightUse) AddItem(right);
+        else {                                      // 减法失败
+            UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "减法失败，骰子不足");
             return false;
         }
     }
@@ -51,7 +52,6 @@ public class ItemManager : LogicModuleBase, IItemManager {
         int num = Random.Range(1, 7);
         UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "获取到新的骰子：" + num.ToString());
         AddItem(num);
-        UpdateStatusUI();
     }
 
     public bool UpdateStatusUI() {

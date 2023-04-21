@@ -6,8 +6,8 @@ using NameList;
 public interface IRoundManager {
     int RoundCount { get;}
 
-    RoundType CurrentRoundType {get; set;}
-    RoundType NextRoundType {get; set;}
+    RoundType CurrentRoundType {get;}
+    RoundType NextRoundType {get;}
 
     /// <summary>
     /// 切换场景时调用，准备开启第一个回合
@@ -22,5 +22,5 @@ public interface IRoundManager {
     /// <summary>
     /// 改变回合
     /// </summary>
-    void ChangeRound(RoundType newRoundType);
+    void ChangeRound();
 }

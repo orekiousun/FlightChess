@@ -1,10 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using QxFramework.Core;
 using UnityEngine.UI;
+using NameList;
 
 public class StatusUI : UIBase {
+    [ChildValueBind("EndRoundBtn", nameof(Button.onClick))]
+    Action OnEndRoundButton;
+
     private Dictionary<int, Text> texts = new Dictionary<int, Text>();
     private Text roundTitleText;
 
@@ -14,6 +19,7 @@ public class StatusUI : UIBase {
             texts[i].text = "0";
         }
         roundTitleText = Get<Text>("RoundText");
+        OnEndRoundButton = EndRoundAction;
     }
 
     /// <summary>
@@ -32,4 +38,10 @@ public class StatusUI : UIBase {
         roundTitleText.text = roundTitle;
     }
 
+    private void EndRoundAction() {
+        GameMgr.RoundMgr.ChangeRound();
+        UIManager.Instance.Close(NameList.UI.Round_NormalUI.ToString());
+        UIManager.Instance.Close(NameList.UI.MinusItemUI.ToString());
+        UIManager.Instance.Close(NameList.UI.ExitUI.ToString());
+    }
 }

@@ -8,8 +8,8 @@ public class RoundManager : LogicModuleBase, IRoundManager {
     public int RoundCount { get; private set; }
     private RoundBase currentRound;
     private RoundType defaultRoundType;
-    public RoundType CurrentRoundType {get; set;}
-    public RoundType NextRoundType {get; set;}
+    public RoundType CurrentRoundType {get; private set;}
+    public RoundType NextRoundType {get; private set;}
 
     // 存储所有的回合类型，需要的时候直接取出来调用即可
     private Dictionary<RoundType, RoundBase> roundDic = new Dictionary<RoundType, RoundBase>();
@@ -33,15 +33,31 @@ public class RoundManager : LogicModuleBase, IRoundManager {
         roundDic.Add(RoundType.Normal, new Round_Normal());
     }
 
-    public void ChangeRound(RoundType newRoundType) {
+    public void ChangeRound() {
+        // 检测当前处于的的Block类型，从而获取到下一个Round的类型
+        RoundType nextRoundType = RoundType.Normal;
+        switch (GameMgr.CharacterMgr.CurrentBlock.type) {
+            case BlockType.Freeze:
+                nextRoundType = RoundType.Stop;
+                break;
+            case BlockType.Fire:
+                nextRoundType = RoundType.ForWard;
+                break;
+            default:
+                nextRoundType = RoundType.Normal;
+                break;
+        }
+        NextRoundType = nextRoundType;
+
         // Debug.Log("Change Round");
         // 退出上一回合
         currentRound.OnExitRound();
         // 开启新的回合
-        currentRound = roundDic[newRoundType];
-        CurrentRoundType = newRoundType;
+        currentRound = roundDic[NextRoundType];
+        CurrentRoundType = NextRoundType;
         RoundCount += 1;
         currentRound.OnEnterRound(RoundCount);
+        // 更新标题
         GameMgr.ItemMgr.UpdateStatusTitle(RoundCount);
     }
 

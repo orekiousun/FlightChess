@@ -8,7 +8,7 @@ public class TipUI : UIBase {
     private float lastTime;
     public override void OnDisplay(object args) {
         Get<Text>("Text").text = (string)args;
-        lastTime = 1.5f;
+        lastTime = 1.2f;
     }
 
     public void SetTime(float time) {

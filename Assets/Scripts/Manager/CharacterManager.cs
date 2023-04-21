@@ -3,17 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using QxFramework.Core;
 using Cinemachine;
+using NameList;
 
 public class CharacterManager : LogicModuleBase, ICharacterManager {
     public PlayerBase Player{ get; private set; }
-
-    private void ChangePlayerCameraConfiner() {
-
-    }
-
-    public void ChangePlayerPosition(Vector2 newPosition) {
-        Player.transform.position = newPosition;
-    }
+    public BlockBase CurrentBlock { get; set; }
 
 #region Unity Callback
     public override void Init() {
@@ -23,7 +17,9 @@ public class CharacterManager : LogicModuleBase, ICharacterManager {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if(player == null) {
                 Transform startPos = GameMgr.SceneMgr.CurrentSceneAnchorPoint.transform.Find("StartPos");
-                player = ResourceManager.Instance.Instantiate("Prefabs/Character/Player", startPos);
+                player = ResourceManager.Instance.Instantiate("Prefabs/Character/Player");
+                player.transform.position = startPos.position;
+                CurrentBlock = startPos.GetComponent<BlockBase>();
             }
             Player = player.GetComponent<PlayerBase>();
         });

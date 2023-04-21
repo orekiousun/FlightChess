@@ -26,8 +26,8 @@ public class Round_NormalUI : UIBase {
     /// 选择一个骰子，执行向前的逻辑
     /// </summary>
     private void ForwardAction() {
-
         UIManager.Instance.Close(this);
+        UIManager.Instance.Open(NameList.UI.SelectItemUI.ToString());
     }
 
     /// <summary>
@@ -35,6 +35,7 @@ public class Round_NormalUI : UIBase {
     /// </summary>
     private void MinusAction() {
         UIManager.Instance.Close(this);
+        UIManager.Instance.Open(NameList.UI.MinusItemUI.ToString());
     }
 
     /// <summary>
@@ -42,6 +43,6 @@ public class Round_NormalUI : UIBase {
     /// </summary>
     private void ExitAction() {
         UIManager.Instance.Close(this);
-        GameMgr.RoundMgr.ChangeRound(RoundType.Normal);
+        GameMgr.RoundMgr.ChangeRound();
     }
 }
