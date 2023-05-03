@@ -4,9 +4,9 @@ using UnityEngine;
 using QxFramework.Core;
 using NameList;
 
-public class Block_Normal : BlockBase {
+public class Block_Stop : BlockBase {
     public override void OnExecuteBlock(int step) {
-        type = BlockType.Normal;
+        type = BlockType.Stop;
         nextBlock = nextBlocks[NameList.NextBlock.NormalTarget];
         base.OnExecuteBlock(step);
     }

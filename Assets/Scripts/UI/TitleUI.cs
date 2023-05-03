@@ -24,7 +24,7 @@ public class TitleUI : UIBase {
     }
 
     private void EnterAction() {
-        ProcedureManager.Instance.ChangeTo<GameProcedure>(args: "Scene1");
+        ProcedureManager.Instance.ChangeTo<GameProcedure>(args: "1-1");
     }
 
     private void SelectAction() {

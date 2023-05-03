@@ -10,6 +10,7 @@ public class RoundManager : LogicModuleBase, IRoundManager {
     private RoundType defaultRoundType;
     public RoundType CurrentRoundType {get; private set;}
     public RoundType NextRoundType {get; private set;}
+    private RoundType lastRoundType;
 
     // 存储所有的回合类型，需要的时候直接取出来调用即可
     private Dictionary<RoundType, RoundBase> roundDic = new Dictionary<RoundType, RoundBase>();
@@ -31,21 +32,27 @@ public class RoundManager : LogicModuleBase, IRoundManager {
     /// </summary>
     private void InitRoundDic() {
         roundDic.Add(RoundType.Normal, new Round_Normal());
+        roundDic.Add(RoundType.Stop, new Round_Stop());
+        roundDic.Add(RoundType.Forward, new Round_Forward());
     }
 
     public void ChangeRound() {
         // 检测当前处于的的Block类型，从而获取到下一个Round的类型
         RoundType nextRoundType = RoundType.Normal;
         switch (GameMgr.CharacterMgr.CurrentBlock.type) {
-            case BlockType.Freeze:
+            case BlockType.Stop:
                 nextRoundType = RoundType.Stop;
                 break;
-            case BlockType.Fire:
-                nextRoundType = RoundType.ForWard;
+            case BlockType.Forward:
+                nextRoundType = RoundType.Forward;
                 break;
             default:
                 nextRoundType = RoundType.Normal;
                 break;
+        }
+        lastRoundType = CurrentRoundType;
+        if(lastRoundType == nextRoundType) {
+            nextRoundType = RoundType.Normal;
         }
         NextRoundType = nextRoundType;
 
@@ -66,6 +73,8 @@ public class RoundManager : LogicModuleBase, IRoundManager {
 
     public override void Init() {
         defaultRoundType = RoundType.Normal;
+        CurrentRoundType = RoundType.Normal;
+        lastRoundType = RoundType.Normal;
         // 将所有的回合类型保存到字典中
         InitRoundDic();
     }

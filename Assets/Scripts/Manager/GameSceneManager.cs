@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using QxFramework.Core;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public enum SceneMessage {
     WillUnload,

@@ -22,6 +22,10 @@ public class CharacterManager : LogicModuleBase, ICharacterManager {
                 CurrentBlock = startPos.GetComponent<BlockBase>();
             }
             Player = player.GetComponent<PlayerBase>();
+            
+            // 更新虚拟相机的跟随对象
+            CinemachineVirtualCamera virCamera = GameMgr.SceneMgr.CurrentSceneAnchorPoint.transform.Find("CM vcam").GetComponent<CinemachineVirtualCamera>();
+            virCamera.Follow = Player.transform;
         });
     }
 
