@@ -4,9 +4,8 @@ using UnityEngine;
 using NameList;
 
 public class PlayerBase : MonoBehaviour {
-    public float blockWidth = 1f;
     private Rigidbody2D rb2D;
-
+    private BlockDirection stepDirection;
     private int stepUpdate;
     private float moveInterval;
     private float moveIterator;
@@ -15,14 +14,16 @@ public class PlayerBase : MonoBehaviour {
         stepUpdate = -1;
         moveInterval = 0.5f;
         rb2D = GetComponent<Rigidbody2D>();
+        stepDirection = BlockDirection.Forward;
     }
 
+#region CharacterManager
     public void StepForward(int step) {
         stepUpdate = step;
-        // if(step >= 0) {
-        //     BlockBase currentBlock = GameMgr.CharacterMgr.CurrentBlock;
-        //     currentBlock.OnExecuteBlock(step);
-        // }
+    }
+
+    public void SetBlockDirection(BlockDirection newDirection) {
+        stepDirection = newDirection;
     }
 
     public void PlayerMove(Vector2 targetPos) {
@@ -35,15 +36,14 @@ public class PlayerBase : MonoBehaviour {
         rb2D.MoveRotation(rotateAngle);
     }
 
+#endregion
+
     private void Update() {
         if(stepUpdate >= 0 && moveIterator > moveInterval) {
             moveIterator = 0;
             BlockBase currentBlock = GameMgr.CharacterMgr.CurrentBlock;
-            currentBlock.OnExecuteBlock(stepUpdate);
+            currentBlock.OnExecuteBlock(stepUpdate, stepDirection);
         }
-        // else if (stepUpdate < 0) {
-        //     moveIterator = 0;
-        // }
         else {
             moveIterator += Time.deltaTime;
         }

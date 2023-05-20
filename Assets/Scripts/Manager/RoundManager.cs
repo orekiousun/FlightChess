@@ -70,7 +70,6 @@ public class RoundManager : LogicModuleBase, IRoundManager {
 
 
 #region Unity Callback
-
     public override void Init() {
         defaultRoundType = RoundType.Normal;
         CurrentRoundType = RoundType.Normal;

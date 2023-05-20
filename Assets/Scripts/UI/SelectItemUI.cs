@@ -36,7 +36,7 @@ public class SelectItemUI : UIBase {
 
     private void ItemAction1() {
         if(GameMgr.ItemMgr.UseItem(1)) {
-            GameMgr.CharacterMgr.Player.StepForward(1);
+            GameMgr.CharacterMgr.ChangePlayerStep(1);
             UIManager.Instance.Close(this);
         }
             
@@ -44,7 +44,7 @@ public class SelectItemUI : UIBase {
 
     private void ItemAction2() {
         if(GameMgr.ItemMgr.UseItem(2)) {
-            GameMgr.CharacterMgr.Player.StepForward(2);
+            GameMgr.CharacterMgr.ChangePlayerStep(2);
             UIManager.Instance.Close(this);
         }
     }
@@ -52,14 +52,14 @@ public class SelectItemUI : UIBase {
     private void ItemAction3() {
         if(GameMgr.ItemMgr.UseItem(3)) {
             UIManager.Instance.Close(this);
-            GameMgr.CharacterMgr.Player.StepForward(3);
+            GameMgr.CharacterMgr.ChangePlayerStep(3);
         }
     }
 
     private void ItemAction4() {
         if(GameMgr.ItemMgr.UseItem(4)) {
             UIManager.Instance.Close(this);
-            GameMgr.CharacterMgr.Player.StepForward(4);
+            GameMgr.CharacterMgr.ChangePlayerStep(4);
         }
             
     }
@@ -67,14 +67,14 @@ public class SelectItemUI : UIBase {
     private void ItemAction5() {
         if(GameMgr.ItemMgr.UseItem(5)) {
             UIManager.Instance.Close(this);
-            GameMgr.CharacterMgr.Player.StepForward(5);
+            GameMgr.CharacterMgr.ChangePlayerStep(5);
         }
     }
 
     private void ItemAction6() {
         if(GameMgr.ItemMgr.UseItem(6)) {
             UIManager.Instance.Close(this);
-            GameMgr.CharacterMgr.Player.StepForward(6);
+            GameMgr.CharacterMgr.ChangePlayerStep(6);
         }
     }
 }

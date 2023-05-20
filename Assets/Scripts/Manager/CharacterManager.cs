@@ -1,3 +1,4 @@
+using System.Security.Cryptography.X509Certificates;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,31 @@ using Cinemachine;
 using NameList;
 
 public class CharacterManager : LogicModuleBase, ICharacterManager {
-    public PlayerBase Player{ get; private set; }
+    public PlayerBase Player { get; private set; }
     public BlockBase CurrentBlock { get; set; }
+
+#region Player
+    public void ChangePlayerStep(int step) {
+        if(Player == null) return;
+        Player.StepForward(step);
+    }
+
+    public void ChangePlayerDirection(BlockDirection direction) {
+        if(Player == null) return;
+        Player.SetBlockDirection(direction);
+    }
+
+    public void ChangePlayerRotation(float rotation) {
+        if(Player == null) return;
+        Player.PlayerRotate(rotation);
+    }
+
+    public void ChangePlayerPosition(Vector2 targetPos) {
+        if(Player == null) return;
+        Player.PlayerMove(targetPos);
+    }
+
+#endregion
 
 #region Unity Callback
     public override void Init() {

@@ -29,6 +29,7 @@ namespace NameList {
         Freeze = 2,
         Forward = 3,
         Stop = 4,
+        Wall = 5,
     }
 
     public enum RoundType {
@@ -38,7 +39,13 @@ namespace NameList {
     }
 
     public enum NextBlock {
-        NormalTarget = 0,
-        JumpTarget = 1,
+        Forward = 0,
+        Jump = 1,
+        Back = 2,
+    }
+
+    public enum BlockDirection {
+        Forward = 0,
+        Back = 1,
     }
 }

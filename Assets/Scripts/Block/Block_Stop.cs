@@ -5,9 +5,9 @@ using QxFramework.Core;
 using NameList;
 
 public class Block_Stop : BlockBase {
-    public override void OnExecuteBlock(int step) {
+    public override void OnExecuteBlock(int step, BlockDirection direction) {
         type = BlockType.Stop;
-        nextBlock = nextBlocks[NameList.NextBlock.NormalTarget];
-        base.OnExecuteBlock(step);
+        nextBlock = direction == BlockDirection.Forward ? nextBlocks[NextBlock.Forward] : nextBlocks[NextBlock.Back];
+        base.OnExecuteBlock(step, direction);
     }
 }

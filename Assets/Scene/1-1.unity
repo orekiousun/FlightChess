@@ -132,21 +132,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -155,14 +159,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 2064966254}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 814982618}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -259,14 +273,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -275,14 +289,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 2085473655}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1983648426}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -363,6 +387,133 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 677707abb0523634c8decbdfa0be4f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &107548255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1670739470}
+    m_Modifications:
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: backAngle
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: rotateAngle
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: forwardAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[0]
+      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":5,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
+        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":3,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2},{"$id":4,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":5,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2}]},"remove_keys":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[1]
+      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 946374244}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 319008845}
+    - target: {fileID: 4445484468445374513, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_Name
+      value: Block_Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61, type: 3}
 --- !u!1001 &163544798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -372,21 +523,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -395,14 +550,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 2106626985}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 631904939}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -499,14 +664,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -515,14 +680,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1365638275}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1740102742}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -619,14 +794,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -635,14 +810,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 616143872}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1365638275}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -799,18 +984,19 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":3,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1},{"$k":2,"$v":$eref:2}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -824,8 +1010,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
+      value: '"path":"nextBlocks.{2es}","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -837,6 +1028,11 @@ PrefabInstance:
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
       objectReference: {fileID: 2106626985}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 793638326}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf, type: 3}
 --- !u!4 &312802733 stripped
@@ -866,37 +1062,56 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      value: '"path":"nextBlocks.{0es}","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 446208434}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1735504455}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 2134687192}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -1057,26 +1272,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:1'
+      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -1087,12 +1311,12 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1108364025}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 1108364025}
+      objectReference: {fileID: 945170562}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -1242,6 +1466,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: jumpRotateAngle
       value: 270
       objectReference: {fileID: 0}
@@ -1253,14 +1482,14 @@ PrefabInstance:
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":3,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1},{"$k":2,"$v":$eref:2}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -1274,8 +1503,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
+      value: '"path":"nextBlocks.{2es}","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -1287,6 +1521,11 @@ PrefabInstance:
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
       objectReference: {fileID: 1434253240}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1580549738}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf, type: 3}
 --- !u!114 &388058991 stripped
@@ -1395,126 +1634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &446208432
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1670739470}
-    m_Modifications:
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
-        Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:0'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 946374244}
-    - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_Name
-      value: Block_Normal (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9e387bb22ef1f9644aa46694f3f40210, type: 3}
---- !u!4 &446208433 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-    type: 3}
-  m_PrefabInstance: {fileID: 446208432}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &446208434 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-    type: 3}
-  m_PrefabInstance: {fileID: 446208432}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 677707abb0523634c8decbdfa0be4f32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &458650463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1524,21 +1643,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -1547,14 +1670,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1735504455}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 622889873}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -1644,25 +1777,36 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: backAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: rotateAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: forwardAngle
       value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
@@ -1671,14 +1815,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1272077718}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 2106626985}
     - target: {fileID: 4445484468445374513, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: m_Name
@@ -1775,19 +1929,24 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:1'
+      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -1798,12 +1957,12 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 709672654}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 709672654}
+      objectReference: {fileID: 298142554}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -1953,20 +2112,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":2,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
-        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0}]},"remove_keys":null'
+      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":5,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
+        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":3,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2},{"$id":4,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":5,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2}]},"remove_keys":null'
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
@@ -1975,14 +2140,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 458650465}
+    - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1272077718}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85ff23684216347448c243db4573208a, type: 3}
 --- !u!4 &622889872 stripped
@@ -2012,21 +2187,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2035,14 +2214,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 163544800}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 2085473655}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -2139,13 +2328,15 @@ PrefabInstance:
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":2,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
-        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0}]},"remove_keys":null'
+      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":5,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
+        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":3,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2},{"$id":4,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":5,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2}]},"remove_keys":null'
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
@@ -2154,14 +2345,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 793638326}
+    - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 616143872}
     - target: {fileID: 4445484468445374513, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: m_Name
@@ -2258,14 +2459,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2274,14 +2475,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 312802734}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1108364025}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -2371,21 +2582,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2394,14 +2609,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 1860848710}
+      objectReference: {fileID: 1159158044}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1598312570}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -2491,21 +2716,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2514,14 +2743,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 48247671}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1248173072}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -2602,6 +2841,133 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 677707abb0523634c8decbdfa0be4f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &870160618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1670739470}
+    m_Modifications:
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: backAngle
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: rotateAngle
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[0]
+      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":5,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
+        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":3,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2},{"$id":4,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":5,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2}]},"remove_keys":null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[1]
+      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1825680043}
+    - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 803814601}
+    - target: {fileID: 4445484468445374513, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_Name
+      value: Block_Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61, type: 3}
 --- !u!1001 &945170560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2611,21 +2977,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2634,14 +3004,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 356967063}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 388058991}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -2731,21 +3111,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2754,14 +3138,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1580549738}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 2134687192}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -2851,20 +3245,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":2,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
-        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0}]},"remove_keys":null'
+      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":5,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
+        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":3,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2},{"$id":4,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":5,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2}]},"remove_keys":null'
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
@@ -2873,14 +3273,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1248173072}
+    - target: {fileID: -4448750490999350650, guid: 90b00acd3b90233478dce30cd8d0fae3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 356967063}
     - target: {fileID: 4445484468445374513, guid: 90b00acd3b90233478dce30cd8d0fae3,
         type: 3}
       propertyPath: m_Name
@@ -2961,6 +3371,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23de544982a98404c878afd04d30c550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1159158044 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+    type: 3}
+  m_PrefabInstance: {fileID: 870160618}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e0eda4eac4c964293e393ea7c251d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1159158045 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+    type: 3}
+  m_PrefabInstance: {fileID: 870160618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1248173070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2970,21 +3398,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -2993,14 +3425,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 814982618}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1108364025}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -3090,26 +3532,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:1'
+      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -3120,12 +3571,12 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 622889873}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 622889873}
+      objectReference: {fileID: 568012083}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -3215,26 +3666,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:1'
+      value: '"path":"nextBlocks.{0es}","value":$eref:0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -3245,12 +3705,12 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1598312570}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 1598312570}
+      objectReference: {fileID: 1900563078}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -3407,14 +3867,14 @@ PrefabInstance:
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":3,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1},{"$k":2,"$v":$eref:2}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -3428,8 +3888,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
+      value: '"path":"nextBlocks.{2es}","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -3441,6 +3906,11 @@ PrefabInstance:
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
       objectReference: {fileID: 312802734}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 255442984}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf, type: 3}
 --- !u!4 &1365638274 stripped
@@ -3530,6 +4000,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: jumpRotateAngle
       value: 0
       objectReference: {fileID: 0}
@@ -3541,14 +4016,14 @@ PrefabInstance:
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":3,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1},{"$k":2,"$v":$eref:2}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -3562,8 +4037,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
+      value: '"path":"nextBlocks.{2es}","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -3575,6 +4055,11 @@ PrefabInstance:
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
       objectReference: {fileID: 1365638275}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1716751353}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf, type: 3}
 --- !u!4 &1434253239 stripped
@@ -3611,14 +4096,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -3627,14 +4112,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1740102742}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1825680043}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -3724,25 +4219,36 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: backAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: rotateAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: forwardAngle
       value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
@@ -3751,14 +4257,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 388058991}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 946374244}
     - target: {fileID: 4445484468445374513, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: m_Name
@@ -3908,20 +4424,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":2,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
-        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0}]},"remove_keys":null'
+      value: '"path":"nextBlocks","add_keys":{"$id":0,"$type":"System.Object[], mscorlib","$rlength":5,"$rcontent":[{"$id":1,"$type":"NameList.NextBlock,
+        Assembly-CSharp",0},{"$id":2,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":3,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2},{"$id":4,"$type":"NameList.NextBlock, Assembly-CSharp",0},{"$id":5,"$type":"NameList.NextBlock,
+        Assembly-CSharp",2}]},"remove_keys":null'
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
@@ -3930,14 +4452,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 803814601}
+    - target: {fileID: 6925668542749368588, guid: 85ff23684216347448c243db4573208a,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1300018949}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85ff23684216347448c243db4573208a, type: 3}
 --- !u!114 &1598312570 stripped
@@ -4040,7 +4572,7 @@ Transform:
   - {fileID: 458650464}
   - {fileID: 1735504454}
   - {fileID: 319008844}
-  - {fileID: 446208433}
+  - {fileID: 2134687193}
   - {fileID: 946374243}
   - {fileID: 1580549737}
   - {fileID: 388058992}
@@ -4057,7 +4589,7 @@ Transform:
   - {fileID: 1300018948}
   - {fileID: 1598312571}
   - {fileID: 803814600}
-  - {fileID: 1860848709}
+  - {fileID: 1159158045}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4070,21 +4602,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -4093,14 +4629,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1434253240}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 2064966254}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -4190,25 +4736,36 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: backAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: rotateAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: forwardAngle
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
@@ -4217,14 +4774,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 319008845}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 458650465}
     - target: {fileID: 4445484468445374513, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: m_Name
@@ -4321,14 +4888,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -4337,14 +4904,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 255442984}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1544799347}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -4441,14 +5018,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -4457,14 +5034,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1544799347}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1159158044}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -4545,126 +5132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 677707abb0523634c8decbdfa0be4f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1860848708
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1670739470}
-    m_Modifications:
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[0]
-      value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
-        Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"nextBlocks.{0es}","value":$eref:0'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 1825680043}
-    - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_Name
-      value: Block_Normal (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 38
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9e387bb22ef1f9644aa46694f3f40210, type: 3}
---- !u!4 &1860848709 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4445484468445374527, guid: 9e387bb22ef1f9644aa46694f3f40210,
-    type: 3}
-  m_PrefabInstance: {fileID: 1860848708}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1860848710 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-    type: 3}
-  m_PrefabInstance: {fileID: 1860848708}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 677707abb0523634c8decbdfa0be4f32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1900563076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4674,21 +5141,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: forwardAngle
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -4697,14 +5168,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1300018949}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1434253240}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -4801,14 +5282,14 @@ PrefabInstance:
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
@@ -4817,14 +5298,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 76010858}
+    - target: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 312802734}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -4919,20 +5410,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
+      propertyPath: forwardAngle
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
@@ -4941,14 +5438,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 1716751353}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 48247671}
     - target: {fileID: 4445484468445374513, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: m_Name
@@ -5038,25 +5545,36 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: backAngle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: rotateAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: forwardAngle
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":1,"$rcontent":[{"$k":0,"$v":$eref:0}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":2,"$v":$eref:1}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
@@ -5065,14 +5583,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[2]
+      value: '"path":"nextBlocks.{2es}","value":$eref:1'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
       objectReference: {fileID: 631904939}
+    - target: {fileID: 2121850842810715813, guid: 677f279c3a5ffca41b5d656001c0e5a3,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 76010858}
     - target: {fileID: 4445484468445374513, guid: 677f279c3a5ffca41b5d656001c0e5a3,
         type: 3}
       propertyPath: m_Name
@@ -5222,6 +5750,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: forwardAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: jumpRotateAngle
       value: 180
       objectReference: {fileID: 0}
@@ -5233,14 +5766,14 @@ PrefabInstance:
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"nextBlocks","value":{"$id":0,"$type":"System.Collections.Generic.Dictionary`2[[NameList.NextBlock,
         Assembly-CSharp],[BlockBase, Assembly-CSharp]], mscorlib","comparer":{"$id":1,"$type":"System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
-        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":2,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1}]}'
+        Assembly-CSharp]], mscorlib","$rlength":0,"$rcontent":[]},"$rlength":3,"$rcontent":[{"$k":0,"$v":$eref:0},{"$k":1,"$v":$eref:1},{"$k":2,"$v":$eref:2}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -5254,8 +5787,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
+      propertyPath: serializationData.PrefabModifications.Array.data[3]
+      value: '"path":"nextBlocks.{2es}","value":$eref:2'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
         type: 3}
@@ -5267,6 +5805,11 @@ PrefabInstance:
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
       objectReference: {fileID: 388058991}
+    - target: {fileID: 7228452775383712336, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
+        type: 3}
+      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 163544800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf, type: 3}
 --- !u!114 &2106626985 stripped
@@ -5286,4 +5829,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7124427015357354753, guid: 90a5efbf02a5cbd4d814e0d1d7301dcf,
     type: 3}
   m_PrefabInstance: {fileID: 2106626984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134687192 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+    type: 3}
+  m_PrefabInstance: {fileID: 107548255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e0eda4eac4c964293e393ea7c251d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2134687193 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4445484468445374527, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
+    type: 3}
+  m_PrefabInstance: {fileID: 107548255}
   m_PrefabAsset: {fileID: 0}
