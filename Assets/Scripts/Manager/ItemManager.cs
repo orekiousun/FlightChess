@@ -6,25 +6,28 @@ using QxFramework.Core;
 using NameList;
 
 public class ItemManager : LogicModuleBase, IItemManager {
-    private Dictionary<int, int> items = new Dictionary<int, int>();   // 保存已有的骰子数量
+    private Dictionary<int, List<GameObject>> items = new Dictionary<int, List<GameObject>>();   // 保存已有的骰子数量
 
-    private StatusUI statusUI;
+    public StatusUI statusUI{get; private set;}
 
     public void AddItem(int index) {
-        items[index]++;
+        GameObject newItem = ResourceManager.Instance.Instantiate("Prefabs/Item/Dice" + index.ToString(), statusUI.ItemRoot);
+        items[index].Add(newItem);
+
         Debug.Log("Add Item: " + index.ToString());
-        UpdateStatusUI();
     }
 
     public bool UseItem(int index) {
         // 判断当前的数量是否大于0，如果大于0就使用，否则报错
-        if(items[index] <= 0) {
+        if(items[index].Count <= 0) {
             UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "个数不足");
             return false;
         }
-        items[index]--;
+
+        statusUI.RemoveItem(items[index][0]);   // 更新UI
+        items[index].Remove(items[index][0]);   // 从列表中删除
+
         Debug.Log("Use Item: " + index.ToString());
-        UpdateStatusUI();
         return true;
     }
 
@@ -34,7 +37,7 @@ public class ItemManager : LogicModuleBase, IItemManager {
             UIManager.Instance.Open(NameList.UI.TipUI.ToString(), args: "减数不能大于等于被减数");
             return false;
         }
-        if(items[left] > 0 && items[right] > 0) {   // 减法成功
+        if(items[left].Count > 0 && items[right].Count > 0) {   // 减法成功
             UseItem(left);
             UseItem(right);
             AddItem(left - right);
@@ -54,14 +57,6 @@ public class ItemManager : LogicModuleBase, IItemManager {
         AddItem(num);
     }
 
-    public bool UpdateStatusUI() {
-        if(statusUI == null) return false;
-        statusUI.UpdateItemTexts(items);
-        Debug.Log("更新骰子数为：" + items[1].ToString() + " " + items[2].ToString() + " " + items[3].ToString() + " "
-                                + items[4].ToString() + " " + items[5].ToString() + " " + items[6].ToString());
-        return true;
-    }
-
     public void UpdateStatusTitle(int roundCount) {
         if(statusUI == null) return;
         string roundTitle = GameMgr.SceneMgr.CurrentScene + " " + "Round " + roundCount.ToString();
@@ -71,11 +66,6 @@ public class ItemManager : LogicModuleBase, IItemManager {
 #region Unity Callback
 
     public override void Init() {
-        for (int i = 1; i <= 6; i++) {
-            items.Add(i, 0);
-        }
-
-
         // 旧场景卸载时，关闭所有回合
         MessageManager.Instance.Get<SceneMessage>().RegisterHandler(SceneMessage.WillUnload, (sender, args) => {
             GameMgr.RoundMgr.EndRound();
@@ -84,7 +74,7 @@ public class ItemManager : LogicModuleBase, IItemManager {
         MessageManager.Instance.Get<SceneMessage>().RegisterHandler(SceneMessage.NewSceneLoaded, (sender, args) => {
             // 新场景加载时，初始化所有的骰子数量为0
             for (int i = 1; i <= 6; i++) {
-                items[i] = 0;
+                items[i] = new List<GameObject>();
             }
 
             // 新场景开启时，开始第一个回合
@@ -92,7 +82,6 @@ public class ItemManager : LogicModuleBase, IItemManager {
 
             // 打开StatusUI并更新UI中骰子数量
             statusUI = (StatusUI)(UIManager.Instance.Open(NameList.UI.StatusUI.ToString()));
-            UpdateStatusUI();
             UpdateStatusTitle(GameMgr.RoundMgr.RoundCount);
         });
     }

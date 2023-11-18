@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface IItemManager {
+    StatusUI statusUI{get;}
+
     /// <summary>
     /// 添加骰子
     /// </summary>
@@ -22,12 +24,6 @@ public interface IItemManager {
     /// 每回合的抽卡，随机获取一个骰子
     /// </summary>
     void GetItem();
-
-    /// <summary>
-    /// 更新StatusUI中骰子的值
-    /// </summary>
-    /// <returns></returns>
-    public bool UpdateStatusUI();
 
     /// <summary>
     /// 更新StatusUI中的标题

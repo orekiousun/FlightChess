@@ -2900,7 +2900,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 1825680043}
+      objectReference: {fileID: 0}
     - target: {fileID: 3639600041060242053, guid: 9a8d3d79d9ef3a44ebaaa52e33005d61,
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
@@ -4129,7 +4129,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 1825680043}
+      objectReference: {fileID: 0}
     - target: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
         type: 3}
       propertyPath: m_Name
@@ -5112,7 +5112,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9e387bb22ef1f9644aa46694f3f40210, type: 3}
 --- !u!4 &1825680042 stripped
 Transform:
@@ -5120,18 +5121,88 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1825680041}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1825680043 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4222088295024286745, guid: 9e387bb22ef1f9644aa46694f3f40210,
+--- !u!1 &1825680043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4445484468445374513, guid: 9e387bb22ef1f9644aa46694f3f40210,
     type: 3}
   m_PrefabInstance: {fileID: 1825680041}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1825680044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825680043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 677707abb0523634c8decbdfa0be4f32, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bef2d29023b40b438522935fd813e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 1544799347}
+    - {fileID: 1159158044}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nextBlocks
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[NameList.NextBlock, Assembly-CSharp],[BlockBase,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[NameList.NextBlock,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  type: 0
+  forwardAngle: 0
+  backAngle: 0
 --- !u!1001 &1900563076
 PrefabInstance:
   m_ObjectHideFlags: 0

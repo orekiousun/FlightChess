@@ -8,27 +8,22 @@ using NameList;
 
 public class StatusUI : UIBase {
     [ChildValueBind("EndRoundBtn", nameof(Button.onClick))]
-    Action OnEndRoundButton;
+    private Action OnEndRoundButton;
 
-    private Dictionary<int, Text> texts = new Dictionary<int, Text>();
     private Text roundTitleText;
+    public Transform ItemRoot {get; private set;}
 
     public override void OnDisplay(object args) {
-        for (int i = 1; i <= 6; i++) {
-            texts.Add(i, Get<Text>("Count" + i.ToString()));
-            texts[i].text = "0";
-        }
+        ItemRoot = Get<GridLayoutGroup>("ItemRoot").transform;
         roundTitleText = Get<Text>("RoundText");
         OnEndRoundButton = EndRoundAction;
     }
 
     /// <summary>
-    /// 更新UI中各个骰子的值
+    /// 从骰子列表中移除
     /// </summary>
-    public void UpdateItemTexts(Dictionary<int, int> items) {
-        for (int i = 1; i <= 6; i++) {
-            texts[i].text = items[i].ToString();
-        }
+    public void RemoveItem(GameObject item) {
+        ObjectPool.Recycle(item);
     }
 
     /// <summary>
